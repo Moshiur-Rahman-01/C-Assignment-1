@@ -198,7 +198,15 @@ nav>button{
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
 }
-
+.news-content>button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+}
 /* card-2 */
 .card-2{
     display: flex;
@@ -214,27 +222,6 @@ nav>button{
     border-radius: 24px;
 }
 
-.news-content>h2{
-    font-size: 32px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 0.8);
-    margin-bottom: 12px;
-}
-.news-content>.date{
-    margin: 12px 0px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-}
-.date{
-    display: flex;
-    gap: 12px;
-}
-.news-content>p{
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-    margin-bottom: 32px;
-}
-
 /* card-3 */
 .card-3{
     display: flex;
@@ -248,27 +235,6 @@ nav>button{
 }
 .card-3>img{
     border-radius: 24px;
-}
-
-.news-content>h2{
-    font-size: 32px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 0.8);
-    margin-bottom: 12px;
-}
-.news-content>.date{
-    margin: 12px 0px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-}
-.date{
-    display: flex;
-    gap: 12px;
-}
-.news-content>p{
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-    margin-bottom: 32px;
 }
 
 /* section-4 */
@@ -325,4 +291,57 @@ nav>button{
     background-color: #006A50;
     border: none;
     border-radius: 8px;
+}
+
+/* section-5 */
+.section-5{
+    max-width: 1280px;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.section-5>h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.section-5>p{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.sp{
+    display: flex;
+    gap: 0px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.sp>input{
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.sp>input[placeholder] {
+    color: rgba(14, 14, 14, 0.3);
+    padding: 18px 40px;
+}
+.sp>button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* hover */
+button:hover{
+    background-color: tomato;
+    color: white;
 }
