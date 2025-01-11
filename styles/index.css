@@ -125,7 +125,7 @@ nav>button{
     padding: 48px 24px;
     border-radius: 16px;
     background-color: white;
-    background-image: url('/assets/quote-bg.png');
+    background-image: url('/quote-bg.png');
     background-repeat: no-repeat;
     background-position: 24px 25px;
     /* background-origin: content-box; */
@@ -146,6 +146,15 @@ nav>button{
 .extra{
     color: rgba(14, 14, 14, 0.6);
     line-height: 24px;
+}
+.btn-1{
+    background-color: #5490F5;
+}
+.btn-2{
+    background-color: #09A15C;
+}
+.btn-3{
+    background-color: #FFC239;
 }
 
 /* section-3 */
@@ -292,6 +301,9 @@ nav>button{
     background-color: #006A50;
     border: none;
     border-radius: 8px;
+}
+#btn-4{
+    background-color: #C6E4D6;
 }
 
 /* section-5 */
