@@ -357,3 +357,25 @@ button:hover{
     background-color: tomato;
     color: white;
 }
+
+/* footer */
+footer{
+    width: 100%;
+    padding: 50px 160px;
+    background-color: white;
+    text-align: center;
+}
+footer>h2{
+    margin-bottom: 32px;
+}
+.img{
+    margin: 32px 0px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+hr{
+    max-width: 1122px;
+    margin: 0px auto;
+    border-color: rgba(14, 14, 14, 0.1);
+}
