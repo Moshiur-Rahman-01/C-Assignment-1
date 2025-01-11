@@ -125,7 +125,7 @@ nav>button{
     padding: 48px 24px;
     border-radius: 16px;
     background-color: white;
-    background-image: url('/quote-bg.png');
+    background-image: url('quote-bg.png');
     background-repeat: no-repeat;
     background-position: 24px 25px;
     /* background-origin: content-box; */
